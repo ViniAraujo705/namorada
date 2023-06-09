@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+body {
+    background-color: rgb(17, 17, 17);;
+}
+
+div#imagemm {
+    background-image: url(foto12.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 99%;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+    display: inline-block;
+}
+
+img#logo {
+    position: absolute;
+    bottom: 93%;
+    size: 5px;
+    width: 70px;
+}
+h5#navegaar {
+    color: white;
+    position: absolute;
+    bottom: 95.5%;
+    top: 38px;
+    left: 8%;
+    font-size: 0.9em;
+}
+h5#Series {
+    color: white;
+    position: absolute;
+    bottom: 95.5%;
+    top: 38px;
+    left: 12%;
+    font-size: 0.9em;
+}
+h5#Filmes{
+    color: white;
+    position: absolute;
+    bottom: 95.5%;
+    top: 38px;
+    left: 16%;
+    font-size: 0.9em;
+}
+h5#Bombando {
+    color: white;
+    position: absolute;
+    bottom: 95.5%;
+    top: 38px;
+    left: 20%;
+    font-size: 0.9em;
+}
+
+
+#lupa {
+    position: absolute;
+    top: 2.3%;
+    left: 78%;
+    color: white;
+    width: 30px;
+
+}
+
+#sino {
+    position: absolute;
+    top: 2%;
+    left: 70%;
+    color: white;
+}
+div#icon {
+    background-image: url(capa.jpeg);
+    background-position: right right;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 87%;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+p#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    left: 3%;
+}
+p#subtitulo {
+    color: white;
+    font-size: 0.8em;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+div#play{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    width: 112px;
+    height: 35px;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.3em;
+
+    
+}
+
+
+
+
+
+ul#tp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    display: flex;
+    
+
+}
+
+p#altaa {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+        top: 75%;
+        left: 15%;
+        transform: translate( -241%, 110%);
+}
+
+ul#tp img {
+    
+    width: 155px;
+    margin: 10px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
+}
+
+p#novamentee {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+        top: 117%;
+        left: 15%;
+        transform: translate( -92%, -50%);
+}
+
+
+ul#sp {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+ul#sp img {
+    width: 155px;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
+}

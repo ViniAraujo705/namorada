@@ -1,0 +1,217 @@
+@media screen and (min-width: 700px) and (max-width: 902px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif
+    }
+    div#imagemm {
+        background-image: url(capa.jpeg);
+        background-size: cover;
+        background-position: center center;
+        width: 150%;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+    }
+    h5#navegar {
+        color: white;
+        position: absolute;
+        bottom: 92.5%;
+        left: 13%;
+        font-size: 0.7em;
+    }
+    p#alta {
+        color: white;
+        font-size: 1.1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -410%, 500%);
+
+    }
+    ul#tp {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,);
+        display: flex;
+        
+    
+    }
+    ul#tp img {
+    
+        width: 250px;
+        margin: 10px;
+        border-radius: 1px;
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
+    }
+    p#novamente {
+        color: white;
+        font-size: 1.1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -158%, 1600%);
+    }
+    ul#sp {
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%,);
+        display: flex;
+        
+    
+    }
+    
+    ul#sp img {
+        width: 250px;
+        margin: 10px;
+        border-radius: 2px;
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif
+    }
+    div#imagemm {
+        background-image: url(capa.jpeg);
+        background-size: cover;
+        background-position: center center;
+        width: 99%;
+        height: 550px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+    }
+    img#logo {
+        position: absolute;
+        bottom: 90%;
+        size: 5px;
+        width: 100px;
+    }
+    h5#navegar {
+        color: white;
+        position: absolute;
+        bottom: 94%;
+        left: 13%;
+        font-size: 0.9em;
+    }
+    #lupa {
+        position: absolute;
+        top: 4%;
+        left: 88%;
+        color: white;
+        width: 90px;
+        height: 60px;
+    
+    }
+    
+    #sino {
+        position: absolute;
+        top: 3.7%;
+        left: 84%;
+        color: white;
+    }
+    div#icon {
+        background-image: url(minhamuie.jpg);
+        background-position: right right;
+        background-size: cover;
+        position: absolute;
+        top: 2%;
+        left: 92%;
+        width: 42px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    p#titulo {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        position: absolute;
+        top: 19%;
+        left: 3%;
+    }
+
+    p#subtitulo {
+        color: white;
+        font-size: 0.9em;
+        position: absolute;
+        top: 35%;
+        left: 3%;
+    }
+
+    div#play{
+    display: inline-block;
+    color: rgb(57, 57, 57);
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.407);
+    line-height: 35px;
+
+    transition: 0.3s ease;
+}
+
+div#play:hover {
+    position: absolute;
+    top: 54%;
+    left: 3%;
+}
+
+p#alta {
+    color: white;
+    font-size: 1.1em;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate( -410%, 500%);
+
+}
+ul#tp {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,);
+    display: flex;
+    
+
+}
+ul#tp img {
+
+    width: 250px;
+    margin: 10px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);} 
+
+    p#novamente {
+        color: white;
+        font-size: 1.1em;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate( -158%, 1600%);
+    }
+    ul#sp {
+        position: absolute;
+        top: 135%;
+        left: 50%;
+        transform: translate(-50%,);
+        display: flex;
+        
+    
+    }
+    
+    ul#sp img {
+        width: 250px;
+        margin: 10px;
+        border-radius: 2px;
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
+    }
+}
